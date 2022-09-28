@@ -30,6 +30,26 @@ and `C'` is the transposed of `C`.
 
 
 ## Installation
+The orignal installation instructions don't apply do to changes in Julia.
+To install first have gfortran installed, then clode the repository.
+
+$ git clone git@github.com:evrenmturan/MPBNGCInterface.jl.git                
+
+Open julia and
+$ julia  
+ 
+pkg> generate MPBNGCInterface
+
+Then back to terminal.
+
+$ cp -r MPBNGCInterface.jl/* MPBNGCInterface/.                                                                                                                                                                                                        
+$ cd MPBNGCInterface/deps
+
+$ julia build.jl                                                                                                                                                                                                                            
+Now MPBNGCInterface.jl can be removed. In the julia enviroment you wish to use MPBNGC run:
+
+pkg> dev ~/path/to/MPBNGC
+
 
 You can install `MPBNGCInterface.jl` through the 
 [Julia Package Manager](https://docs.julialang.org/en/v1/stdlib/Pkg/index.html):
