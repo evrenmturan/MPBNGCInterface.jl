@@ -50,7 +50,7 @@ Now MPBNGCInterface.jl can be removed. In the julia enviroment you wish to use M
 
 pkg> dev ~/path/to/MPBNGC
 
-
+# ORIGNAL INSTRUCTIONS
 You can install `MPBNGCInterface.jl` through the 
 [Julia Package Manager](https://docs.julialang.org/en/v1/stdlib/Pkg/index.html):
 
